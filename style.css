@@ -1,5 +1,6 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
 }
 
 h1{
@@ -19,4 +20,44 @@ p{
     float: left;
     margin-left: 5%;
     padding-left: 5%;
+}
+.half-width img{
+    width: 450px;
+    margin-top: 2%;
+}
+.top-banner{
+    
+    background-image: url(images/top-banner.png);
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: darkcyan;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.middle-width img{
+    float: left;
+    width: 400px;
+    margin-left: 10%;
+}
+.middle-width-text{
+    width: 40%;
+   float: right;
+    margin-right: 15%;
+    padding-left: 4%;
+}
+.ig{
+    text-decoration: none;
+    background-color: darkorchid;
+    color: aliceblue;
+    font-family: cursive;
+    margin: 0px;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
