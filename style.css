@@ -4,7 +4,23 @@
      margin-bottom: 10px;
      color: aquamarine;
 }
-.ho{
+#ho{
     color: blue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin: 20px;
+    margin-left: 500px;
+    border-style: dashed;
+    border-start-end-radius: 500px 400px;
 }
+input:focus{
+    font-weight: 700;
+    font-size: 20px;
+    color: blue;
+}
+li:nth-child(2n+1){
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-variant: inherit;
+    background-color: darkgray;
